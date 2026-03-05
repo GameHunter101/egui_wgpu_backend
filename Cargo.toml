@@ -1,8 +1,8 @@
 [package]
 name = "egui_wgpu_backend"
-version = "0.35.0"
+version = "0.36.0"
 authors = ["Nils Hasenbanck <nils@hasenbanck.de>"]
-edition = "2018"
+edition = "2024"
 description = "Backend code to use egui with wgpu."
 homepage = "https://github.com/hasenbanck/egui_wgpu_backend"
 repository = "https://github.com/hasenbanck/egui_wgpu_backend"
@@ -16,5 +16,5 @@ web = []
 
 [dependencies]
 egui = { version = "0.32", features = ["bytemuck"] }
-wgpu = "26.0"
+wgpu = "28.0.0"
 bytemuck = "1.18"
